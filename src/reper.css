@@ -1,0 +1,66 @@
+p{
+    font-size: 20px;
+    }
+    p{
+    color:red;
+    }
+    p{
+    font: caption;
+    }
+    img{
+    width: 200;
+    
+    }
+    img{
+    height: 300;
+    
+    }
+    
+    img {
+        animation: fadein 3s infinite;
+        }
+        
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to{
+            opacity: 0.75;
+        }
+            }
+            
+        @media (min-width: 600px) {
+    p{
+        font-size: 1.25rem;
+    }
+        }
+    @media (min-width: 800px) {
+        p{
+            font-size: 1.5rem;
+            line-height: 1.5;
+        }
+    }
+    @media (min-width: 600px) {
+        img {
+            width: 25rem;
+            height: 25rem;
+        }
+    }
+    @media (min-width: 800px) {
+        img{
+            width: 30rem;
+            height: 30rem;
+        }
+    }
+    @media (min-width: 1000px) {
+        img{
+            width: 35rem;
+            height: 35rem;
+        }
+    }
+    @media (min-width: 1200px) {
+        img{
+            width: 40rem;
+            height: 40rem;
+        }
+    }
